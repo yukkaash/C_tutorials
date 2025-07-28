@@ -1,24 +1,12 @@
-#include<stdio.h>
-int main()
-{
-  int M,N;
-  printf("Enter a value for M & N:");
-  scanf("%d%d",&M ,&N);
+#include <stdio.h>
 
-  if(M>N)
-  {
-    printf("%d is greater than %d",M,N);
-  }
+int main() {
+    int a = 5;
+    int b = 7;
+    int sum = a + b;
 
-  else if (M<N)
-  {              
-    printf("%d is lesser than %d",M,N);
-  }
+    printf("Hello, Yuki!\n");
+    printf("The sum of %d and %d is %d\n", a, b, sum);
 
-  else
-  {
-    printf("They are equal",M,N);
-  }
-  
-  return 0;
+    return 0;
 }
