@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+//helllo
 int main() {
     char s[101], result[101];
     printf("Enter the string: ");
